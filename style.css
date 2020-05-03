@@ -1,0 +1,294 @@
+body {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    margin: 0;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 1171;
+    margin: 0 135px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+}
+
+
+h4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #FF7931;
+}
+
+header h1 {
+    margin: 60px 0 46px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.underwater-hotel {
+    margin-top: 47px;
+    margin-bottom: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: url(img/underwater-hotel.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hotel-icon {
+    width: 55px;
+    height: 55px;
+    margin-top: 46px;
+    border-radius: 50%;
+    background-color: #FF7931;
+    background-image: url(img/hotel-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.underwater-hotel h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 72px;
+    line-height: 84px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0;
+    margin-top: 32px;
+    margin-bottom: 139px;
+}
+
+.underwater-hotel h3 a {
+    color: #FFFFFF;
+}
+
+.underwater-hotel p {
+    text-align: center;
+    max-width: 456px;
+    margin-bottom: 48px;
+    color: #FFFFFF;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.reviews h2 {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.review-card {
+    max-width: 370px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 51px;
+}
+
+.review-card h3 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 11px;
+}
+
+.review-card p {
+    text-align: left;
+}
+
+.season-tickets {
+    background-color: #F7F7F7;
+    height: 556px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.season-tickets-circle {
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 707px;
+    height: 707px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.season-tickets-circle h2 {
+    margin-bottom: 35px;
+}
+
+.season-ticket-card {
+    max-width: 370px;
+}
+
+.season-ticket-card h3 {
+    padding-bottom: 10px;
+}
+
+.season-ticket-card p {
+    text-align: center;
+}
+
+.season-ticket-card::after {
+    display: block;
+    width: 100px;
+    content: '';
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    opacity: 0.4;
+    margin: 24px auto;
+}
+
+.season-ticket-btn {
+    width: 170px;
+    height: 47px;
+    background-color: #FF7931;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.season-ticket-btn a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 7px;
+}
+
+.season-ticket-btn::after {
+    display: block;
+    background: url(img/Arrow-forward.svg) no-repeat;
+    content: '';
+    width: 24px;
+    height: 25px;
+}
+
+footer {
+    background-color: #575757;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    padding-top: 26px;
+    padding-bottom: 46px;
+}
+
+.footer-nav {
+    margin-top: 32px;
+    margin-bottom: 46px;
+}
+
+.footer-nav a {
+    color: #FFFFFF;
+}
+
+.social::before {
+    display: block;
+    width: 100%;
+    content: '';
+    border-top: 1px solid #FFFFFF;
+    opacity: 0.4;
+    margin-bottom: 42px;
+}
+
+.social {
+    justify-content: center;
+}
+
+.social li a {
+    display: block;
+    margin-right: 14px;
+    padding:23.5px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social li:nth-child(1) a {
+    background-image: url(img/instagram_icon.svg);
+}
+
+.social li:nth-child(2) a {
+    background-image: url(img/facebook_icon.svg);
+}
+
+.social li:nth-child(3) a {
+    background-image: url(img/twitter_icon.svg);
+}
