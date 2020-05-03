@@ -259,6 +259,10 @@ footer {
     color: #FFFFFF;
 }
 
+.footer-nav a:hover {
+    color: #FF7931;
+}
+
 .social::before {
     display: block;
     width: 100%;
