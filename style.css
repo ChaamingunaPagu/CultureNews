@@ -285,6 +285,10 @@ footer {
     background-position: center;
 }
 
+.social li a:hover {
+    background-color: #FF7931;
+}
+
 .social li:nth-child(1) a {
     background-image: url(img/instagram_icon.svg);
 }
